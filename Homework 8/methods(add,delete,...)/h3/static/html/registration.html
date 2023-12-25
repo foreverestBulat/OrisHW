@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="../styles/auth-registration.css">
+        <script src="../scripts/serializeJsonReg.js"></script>
+    </head>
+    <body>
+        <div class="auth-registration">
+            <div class="auth-registration_head">
+                <h1 class="auth-registration_head_name">Регистрация</h1>
+            </div>
+
+            <form>
+                <div class="auth-registration_inputs-fields">
+                    <div class="auth-registration_input-label auth-registration_login">
+                        <input type="text" id="login" class="myInput" placeholder="Логин" />
+                    </div>
+                    <div class="auth-registration_input-label auth-registration_password">
+                        <input type="text" id="password" class="myInput" placeholder="Пароль" />
+                    </div>
+                    <div class=" auth-registration_input-label auth-registration_password auth-registration_password-repeat">
+                        <input type="text" id="repeatpassword" class="myInput" placeholder="Повторите пароль" />
+                    </div>
+                </div>
+    
+                <div class="auth-registration_button">
+                    <input onclick="serializeJsonReg()" type="button" value="Зарегистрироваться"/>
+                </div>
+            </form>
+
+            <div class="auth-registration_role">
+                <a href="/auth/show">
+                    Войти в аккаунт
+                </a>
+            </div>
+        </div>
+    </body>
+</html>
