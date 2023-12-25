@@ -1,0 +1,12 @@
+C:\Users\Admin\Desktop\ОРИС\h3\ORM\bin\Debug\net7.0\ORM.deps.json
+C:\Users\Admin\Desktop\ОРИС\h3\ORM\bin\Debug\net7.0\ORM.dll
+C:\Users\Admin\Desktop\ОРИС\h3\ORM\bin\Debug\net7.0\ORM.pdb
+C:\Users\Admin\Desktop\ОРИС\h3\ORM\obj\Debug\net7.0\ORM.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\ОРИС\h3\ORM\obj\Debug\net7.0\ORM.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\ОРИС\h3\ORM\obj\Debug\net7.0\ORM.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\ОРИС\h3\ORM\obj\Debug\net7.0\ORM.AssemblyInfo.cs
+C:\Users\Admin\Desktop\ОРИС\h3\ORM\obj\Debug\net7.0\ORM.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\ОРИС\h3\ORM\obj\Debug\net7.0\ORM.dll
+C:\Users\Admin\Desktop\ОРИС\h3\ORM\obj\Debug\net7.0\refint\ORM.dll
+C:\Users\Admin\Desktop\ОРИС\h3\ORM\obj\Debug\net7.0\ORM.pdb
+C:\Users\Admin\Desktop\ОРИС\h3\ORM\obj\Debug\net7.0\ref\ORM.dll

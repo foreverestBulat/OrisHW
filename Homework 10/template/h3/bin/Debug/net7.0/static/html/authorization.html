@@ -1,0 +1,37 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../styles/auth-registration.css">
+    <script src="../scripts/serializeJsonUser.js"></script>
+    <script src="../scripts/popupActions.js"></script>
+</head>
+<body>
+    <div class="auth-registration">
+        <div class="auth-registration_head">
+            <h1 class="auth-registration_head_name">Войти в аккаунт</h1>
+        </div>
+
+        {% if isLogin %}
+            <a href="/dodopizza/show">Перети на главную страницу DodoPizza</a>
+            <a href="/auth/return">Войти заново</a>
+        {% else %}
+            <form>
+                <div class="auth-registration_inputs-fields">
+                    <div class="auth-registration_input-label auth-registration_login">
+                        <input type="text" id="login" class="myInput" placeholder="Логин" />
+                    </div>
+                    <div class="auth-registration_input-label auth-registration_password">
+                        <input type="text" id="password" class="myInput" placeholder="Пароль" />
+                    </div>
+                </div>
+
+                <div class="auth-registration_button">
+                    <input onclick="serializeJsonUser()" type="button" value="Отправить">
+                </div>
+            </form>
+        {% end %}
+        <div class="auth-registration_role">
+        </div>
+    </div>
+</body>
+</html>
