@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppFirstProgram.MainPage"
+             WidthRequest="1400"
+             HeightRequest="700">
+
+
+    <Grid
+        HorizontalOptions="FillAndExpand"
+        VerticalOptions="FillAndExpand">
+
+
+        <HorizontalStackLayout
+            x:Name="myLayout"
+            HorizontalOptions="FillAndExpand"
+            VerticalOptions="FillAndExpand">
+            
+            <Image
+                Source="https://w7.pngwing.com/pngs/631/210/png-transparent-the-witcher-3-wild-hunt-gwent-the-witcher-card-game-geralt-of-rivia-the-last-wish-world-of-the-witcher-video-game-sticker-cartoon-thumbnail.png"
+                x:Name="Vedimak"
+                HorizontalOptions="Start"
+                WidthRequest="100"/>
+
+            <Image
+                Source="https://the-gadgeteer.com/wp-content/uploads/2018/10/pbteen-golden-snitch-2.jpg"
+                x:Name="Snitch"
+                HorizontalOptions="Start"
+                WidthRequest="50"/>
+        </HorizontalStackLayout>
+
+
+        <Image
+            Source="http://file.mobilmusic.ru/98/a7/74/1342181-1136.jpg"
+            HorizontalOptions="End"
+            x:Name="Wall"
+            HeightRequest="300"
+            WidthRequest="200"/>
+
+        <!--<HorizontalStackLayout
+            HorizontalOptions="FillAndExpand">-->
+
+        <HorizontalStackLayout
+            HorizontalOptions="Start"
+            VerticalOptions="End">
+            <Button
+                Text="Up"
+                Clicked="MoveVedimakUp"/>
+            <Button
+                Text="Down"
+                Clicked="MoveVedimakDown"/>
+            <Button
+                Text="Shoot"
+                Clicked="ShootSnitch"/>
+            <!--<Button
+                Text="Shoot"
+                Clicked="StartMoveSnitch"/>
+            <Button
+                Text="Stop"
+                Clicked="StopMoveSnitch"/>-->
+
+        </HorizontalStackLayout>
+        
+    </Grid>
+
+
+</ContentPage>
